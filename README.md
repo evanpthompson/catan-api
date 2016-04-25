@@ -1,3 +1,3 @@
 # catan-api
 
-Django Python webapp backend that provides a Django REST framework. 
+Django Python webapp backend that provides a Django REST framework delivered via JSON. 
