@@ -4,7 +4,7 @@ from paths.models import Path
 
 
 # Create your views here.
-class TerrainViewSet(viewsets.ModelViewSet):
+class PathViewSet(viewsets.ModelViewSet):
     queryset = Path.objects.all()
     serializer_class = PathSerializer
             
