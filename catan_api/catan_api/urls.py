@@ -19,6 +19,7 @@ from terrains import views
 
 router = routers.DefaultRouter()
 router.register(r'terrains', views.TerrainViewSet)
+router.register(r'paths', views.TerrainViewSet)
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
