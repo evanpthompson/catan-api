@@ -6,3 +6,5 @@ from django.db import models
 class Terrain(models.Model):
     id = models.AutoField(primary_key=True)
     resource = models.CharField(max_length=50) 
+    board = models.ForeignKey('boards.Board', on_delete=models.CASCADE)
+
