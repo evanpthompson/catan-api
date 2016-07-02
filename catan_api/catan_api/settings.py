@@ -40,7 +40,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'terrains',
     'paths',
-    'intersections'
+    'intersections',
+    'boards'
 )
 
 REST_FRAMEWORK = {
